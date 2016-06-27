@@ -7,9 +7,19 @@ body {
     font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
+#beatles-logo {
+    width: 400px;
+    height: 200px;
+}
+
+#random-area {
+    text-align: center;
+}
+
 .beatles-img {
     width: 200px;
     height: 200px;
+    float:left;
 }
 
 h1 {
@@ -22,8 +32,12 @@ h1 {
 
 #winArea {
     height: 100px;
-    padding: 4px;
+    width: 100px;
+    padding-top: 10px;
+    padding-left: 10px;
     margin-left: 10px;
     margin-bottom: 10px;
     background-color: yellow;
 }
+
+
