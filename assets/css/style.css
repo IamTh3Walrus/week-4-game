@@ -1,52 +1,29 @@
-*{
-	box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
 
-body{
-	background: blue;
-	font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+body {
+    background: blue;
+    font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
-#lennon{
-	width: 200px;
-	height: 200px;
-	margin-top: 100px;
-	margin-left: 100px;
+.beatles-img {
+    width: 200px;
+    height: 200px;
 }
 
-#mccartney{
-	width: 200px;
-	height: 200px;
+h1 {
+    font-family: 'Special Elite', cursive;
+    float: right;
+    margin-right: 500px;
+    margin-top: 100px;
+    font-size: 50px;
 }
 
-#harrison{
-	width: 200px;
-	height: 200px;
-}
-
-#ringo{
-	width: 200px;
-	height: 200px;
-}
-
-#randomNumber{
-	text-align: center;
-}
-
-#numberToGuess{
-	text-align: center;
-}
-
-#beatles-image{
-	width:400px;
-	height: 200px;
-}
-
-h1{
-	font-family: 'Special Elite', cursive;
-	float:right;
-	margin-right: 500px;
-	margin-top: 100px;
-	font-size: 50px;
-
+#winArea {
+    height: 100px;
+    padding: 4px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: yellow;
 }

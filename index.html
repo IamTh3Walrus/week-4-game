@@ -1,38 +1,35 @@
 <!DOCTYPE html>
+<html lang="en-us">
 
-<html lang ="en-us">
 <head>
-	<meta charset="UTF-8">
-
-		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-		<link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
-
-	<title>Number's Game</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+    <title>Beatles Number's Game</title>
 </head>
+
 <body>
-	<div id="wrapper">
-		<div id="header">
-			<img src="assets/images/beatles_logo.jpg" alt="The Beatles" id="beatles-image">
-				<h1> Number's Game</h1>
-
-	</div>
-
-	<h2 id="numberToGuess"></h2>
-	<h3 id="randomNumber"></h3>
-
-
-	<div id="fabfour">	
-		<img src="assets/images/lennon.jpeg" alt="The Beatles" id="lennon">
-		<img src="assets/images/mccartney.jpeg" alt="The Beatles" id="mccartney">
-		<img src="assets/images/harrison.jpeg" alt="The Beatles" id="harrison">
-		<img src="assets/images/ringo.jpeg" alt="The Beatles" id="ringo">
-	</div>
-	
-<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous">
-</script>
-<script type="text/javascript" src="assets/javascript/game.js"></script>
-</div>
+    <div id="wrapper">
+        <div id="header">
+            <img src="assets/images/beatles_logo.jpg" alt="The Beatles" id="beatles-image">
+            <h1> Number's Game</h1>
+        </div>
+        <div id="screen">
+            <div id="random-area">
+                <div>The random number is:</div>
+            </div>
+            <div id="winArea"></div>
+        </div>
+        <div>
+            <div id="beatles-area"></div>
+            <div id="score-title">Your total score is:</div>
+            <div id="score-area"></div>
+        </div>
+        <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous">
+        </script>
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+    </div>
 </body>
 
 </html>
